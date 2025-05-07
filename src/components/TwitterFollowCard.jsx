@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function TwitterFollowCard ({children, username, initialIsFollowing}) {
+export default function TwitterFollowCard ({children, username, initialIsFollowing}) {      // Los nombres de los componentes deben empezar con mayúscula
 
     const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
     
